@@ -63,6 +63,7 @@
     <div v-else>
       <h4>Perfume submitted successfully</h4>
       <button class="btn btn-success" @click="newperfume">Add</button>
+      <button class="btn btn-success"><a href="/perfumes">Back to perfumes </a></button>
     </div>
   </div>
 </template>

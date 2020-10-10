@@ -54,6 +54,9 @@
     <button type="submit" class="badge badge-success" @click="updatePerfume">
       Update
     </button>
+    <button class="badge badge-success">
+     <a href="/perfumes">cancel</a> 
+    </button>
     <p>{{ message }}</p>
   </div>
   <div v-else>

@@ -40,27 +40,26 @@
       <div v-if="currentperfume">
         <h4>Perfume</h4>
         <div>
-          <label><strong>Perfume Name:</strong></label
-          >{{ currentperfume.Name }}
+          <label><strong>Perfume Name:</strong></label>
+          {{ currentperfume.Name }}
         </div>
         <div>
-          <label><strong>Brand:</strong></label
-          >{{ currentperfume.Brand }}
+          <label><strong>Brand:</strong></label> {{ currentperfume.Brand }}
         </div>
         <div>
-          <label><strong>Notes</strong></label
-          >{{ currentperfume.Notes }}
+          <label><strong>Notes</strong></label> {{ currentperfume.Notes }}
         </div>
         <div>
-          <label><strong>Submitted by:</strong></label
-          >{{ currentperfume.Entryname }}
+          <label><strong>Submitted by:</strong></label>
+          {{ currentperfume.Entryname }}
         </div>
         <div>
           <label
             ><strong
-              >Why {{ currentperfume.Entryname }} loves this fragrance
+              >Why {{ currentperfume.Entryname }} loves this fragrance :
             </strong></label
-          >{{ currentperfume.Content }}
+          >
+          {{ currentperfume.Content }}
         </div>
         <a class="badge badge-warning" :href="'/perfumes/' + currentperfume.id">
           Edit
