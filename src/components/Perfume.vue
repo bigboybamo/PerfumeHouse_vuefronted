@@ -30,7 +30,7 @@
         />
       </div>
       <div class="form-group">
-        <label for="Entryname">Submittedby</label>
+        <label for="Entryname">Submitted by</label>
         <input
           type="text"
           class="form-control"
@@ -39,7 +39,7 @@
         />
       </div>
       <div class="form-group">
-        <label for="Content">Content</label>
+        <label for="Content">Why do you love this scent</label>
         <input
           type="text"
           class="form-control"
@@ -55,7 +55,7 @@
       Update
     </button>
     <button class="badge badge-success">
-     <a href="/perfumes">cancel</a> 
+      <a href="/perfumes">cancel</a>
     </button>
     <p>{{ message }}</p>
   </div>
