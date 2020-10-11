@@ -55,7 +55,7 @@
       Update
     </button>
     <button class="badge badge-success">
-      <a href="/perfumes">cancel</a>
+      <router-link to="/perfumeslist">cancel</router-link>
     </button>
     <p>{{ message }}</p>
   </div>
@@ -88,11 +88,11 @@ export default {
     },
     updatePerfume() {
       PerfumeDataService.update(this.currentPerfume.id, this.currentPerfume)
-        .then((res) => {
+        .then(res => {
           console.log(res.data);
           this.message = "Update done successfully";
         })
-        .catch((err) => {
+        .catch(err => {
           console.log(err);
         });
     },

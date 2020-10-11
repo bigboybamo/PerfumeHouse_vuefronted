@@ -61,7 +61,7 @@
           />
         </div>
         <button @click="saveperfume" class="btn btn-success">Submit</button>
-        <button class="btn btn-danger"><a href="/perfumes">cancel</a></button>
+        <button class="btn btn-danger"><router-link to="/Home">cancel</router-link></button>
       </div>
     </div>
     <div v-else>

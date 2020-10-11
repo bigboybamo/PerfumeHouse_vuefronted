@@ -8,7 +8,13 @@ export default new Router({
   routes: [
     {
       path: "/",
-      alias: "/perfumes",
+      alias: "/Home",
+      name: "Home",
+      component: () => import("./views/Home"),
+    },
+    {
+      path: "/perfumeslist",
+      alias: "/perfumelist",
       name: "perfumes",
       component: () => import("./components/PerfumeList"),
     },
